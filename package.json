@@ -1,0 +1,18 @@
+{
+  "name": "skynet-demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "skynet-js": "^4.3.0"
+  },
+  "devDependencies": {
+    "vite": "^3.0.7"
+  }
+}
