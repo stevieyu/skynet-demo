@@ -19,8 +19,16 @@ const val = {
     datetime: new Date().toLocaleString()
 }
 
-// console.log('setJSONExample', await json(dataKey, val));
-console.log('getJSONExample', await json(dataKey))
+
+const test = async() => {
+    const res = await json(dataKey)
+    console.log('getJSONExample', res)
+    if(!res){
+        console.log('setJSONExample', await json(dataKey, val));
+    }
+}
+test();
+
 
 
 
