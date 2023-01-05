@@ -1,6 +1,6 @@
 import client, {publicKey, privateKey } from './client.js'
 
-const dataKey = "myApp";
+const dataKey = "jsonDemo";
 
 export const json = async (dataKey, data) => {
     const {getJSON, setJSON} = client.db

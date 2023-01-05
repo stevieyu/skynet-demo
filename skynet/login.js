@@ -4,7 +4,6 @@ const hostApp = "vvvd.surge.stevie.top";
 
 async function requestLoginAccessExample() {
     try {
-        console.log('customOptions', client.customOptions)
         const mySky = await client.loadMySky(hostApp, {
             // debug: true
         });
